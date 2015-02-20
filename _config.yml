@@ -1,0 +1,33 @@
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+pygments: true
+
+kramdown:
+  input: GFM
+
+# 作者信息
+author: 
+  name: 胡鹏
+  email: hupenghp2005@gmail.com
+  link: http://hupengfoot.github.io/
+  weibo: http://weibo.com/u/2033965367
+  github: http://github.com/hupengfoot
+
+# 站点信息
+title: 胡鹏的博客 
+description: 胡鹏的博客
+url: http://hupengfoot.github.io
+rss_url: /pages/atom.xml
+
+# avatar头像及Favicon
+avatar: https://avatars1.githubusercontent.com/u/2427715?v=3&amp
+favicon: https://avatars1.githubusercontent.com/u/2427715?v=3&amp
+
+# google analytics 设置
+ga:
+  id: UA-54767140-1
+  url: http://hupengfoot.github.io
+
+# disqus 设置
+disqus:
+  shortname: hupeng-zh
