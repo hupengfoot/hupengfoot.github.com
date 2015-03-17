@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 《redis设计与实现》
-category: 技术
+category: 读书
 tags: [Linux] 
 keywords: redis
 ---
