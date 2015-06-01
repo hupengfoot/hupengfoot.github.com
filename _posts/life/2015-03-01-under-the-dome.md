@@ -18,7 +18,7 @@ keywords:
 
 一个人应该这么活着，春天来的时候门开着风进来，花香进来，颜色进来，
 
-![春分](http://t-1.tuzhan.com/bd1776b005dd/c-2/l/2013/01/31/20/abd4c3ae952447848522cde47aac67e7.jpg)
+![春分](http://imgsrc.baidu.com/forum/pic/item/bd3eb13533fa828bd7ca976dfd1f4134960a5a56.jpg)
 
 有的时候你碰到雨，或者碰到雾的时候，你会忍不住想要往肺里面深深的呼吸一口，能感觉到那个碎雨的味道，又凛冽又清新，
 
