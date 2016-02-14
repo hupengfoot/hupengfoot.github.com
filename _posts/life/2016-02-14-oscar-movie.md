@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 《阿甘》、《肖申克》、《低俗小说》观后感
+title: 94年奥斯卡三大神作观后感
 category: 生活
 tags: [life] 
 keywords: 
