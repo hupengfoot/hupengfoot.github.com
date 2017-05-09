@@ -17,11 +17,11 @@ keywords: Linux, node, mysql, network
 
 业务进程抓包数据:
 
-![业务进程](http://shp.qpic.cn/zc_large/0/839_1494340204000/0)
+![第二版的CPU占用率曲线](http://shp.qpic.cn/zc_large/0/456_1452243780000/0)
 
 mysql-proxy抓包数据:
 
-![mysql-proxy](http://shp.qpic.cn/zc_large/0/150_1494340025000/0)
+![第二版的CPU占用率曲线](http://shp.qpic.cn/zc_large/0/456_1452243780000/0)
 
 上图可以看出出现了大量的超时重传，确实是丢包，把这个问题抛给网平的人，网平给出说法说公司dev环境到idc环境转发通过一个防火墙，该防火墙设置的会话保持超时时间是30分钟，根据前面的总结，和我们触发sql超时的规律基本吻合，基本上判断就是墙上会话保持的问题了。
 
