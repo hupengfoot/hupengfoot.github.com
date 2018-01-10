@@ -3,7 +3,7 @@ layout: post
 title: 现网环境elk部署方案
 category: 技术
 tags: [Linux, elk]
-keywords: 日志，elk
+keywords: 日志,elk
 ---
 
 ### 起因
@@ -23,6 +23,7 @@ ELK是一套成熟的日志收集检索展示方案，能够然我们直接在�
 [x-pack 版本6.1.1](https://artifacts.elastic.co/downloads/packs/x-pack/x-pack-6.1.1.zip) x-pack是ELK工具栈中的一个强大工具，提供了很多功能，我们这里主要是用到x-pack的监控功能，对elasticssearch、kibana、logstash三个组件运行的健康状况进行监控上报，并在kibana中展示。
 
 下面先介绍一下我们ELK的部署结构
+
 ![alt](http://shp.qpic.cn/zc_large/0/558_1515575154000/0)
 
 我们现网业务日志通过UDP传输给一个日志服务器，实现日志的统一收集，然后在此基础上，在日志服务器部署logstash读取收集到的日志文件，转发给ELASTIC+KIBANA服务器，将日志结构化写入ELASTIC的索引，然后通过KIBANA的界面展示给用户
