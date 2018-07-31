@@ -60,7 +60,7 @@ node是一个比较特殊的后台编程环境，事件驱动异步单线程的�
 
 程序崩溃没有返回结果，由此可见express无法捕获异步异常。
 
-所以捕获异步异常就需要用到domain模块了，domain的原理是改写了process.\_fatalException函数，是的该函数首先调用domain注册的函数处理异常，代码示例如下:
+所以捕获异步异常就需要用到domain模块了，domain的原理是改写了`process._fatalException`函数，使得该函数首先调用domain注册的函数处理异常，代码示例如下:
 
     var express = require('express');
     var app = express();
